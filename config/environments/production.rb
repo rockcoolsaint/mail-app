@@ -96,7 +96,7 @@ Rails.application.configure do
   :user_name            => ENV['username'],
   :password             => ENV['password'],
   :authentication       => "plain",
-  :domain         => 'domain',
+  :domain         => 'mymail-app.herokuapp.com',
  :enable_starttls_auto => true
  }
 end
