@@ -93,10 +93,10 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
   :address              => "smtp.mailgun.org",
   :port                 => 587,
-  :user_name            => ENV['gmail_username'],
-  :password             => ENV['gmail_password'],
+  :user_name            => ENV['username'],
+  :password             => ENV['password'],
   :authentication       => "plain",
-  :domain         => 'heroku.com',
+  :domain         => 'domain',
  :enable_starttls_auto => true
  }
 end
